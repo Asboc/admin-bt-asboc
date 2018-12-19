@@ -1,0 +1,7 @@
+
+div#zz-img-show img{margin:5px 10px 0 0;height:60px}
+.zz-add-img{overflow:hidden;width:50px;height:50px}
+input#zz-img-file{position:relative;float:left;width:120px;height:100%;opacity:0}
+div#zz-img-show{float:left}
+div#zz-img-add{float:left;margin:5px 15px 0 -120px;width:120px;height:58px;border:1px solid #eee;background-color:#51ADED;color:#FFF;text-align:center;font-size:16px;line-height:10px}
+.comment_text img{display:block;margin:15px 0;max-width:85%}

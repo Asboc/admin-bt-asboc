@@ -1,0 +1,56 @@
+/*
+	Theme Name: DUX
+	Description: A better theme by themebetter.com.
+	Theme URI: https://themebetter.com/theme/dux
+	Author: themebetter.com
+	Author URI: https://themebetter.com/
+	Version: 5.0
+*/
+/** 表情 **/
+.comment-tool {
+	float: right;
+	width: 90px;
+	margin: 0;
+}
+
+.comment-tool a {
+	background: #3690cf;
+	float: right;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 26px;
+	margin: 0 0 0 10px;
+	border: 1px solid #3690cf;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.comment-tool a:hover {
+	background: #fff;
+	color: #555;
+	border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 640px) {
+	.comment-tool {
+		display: none;
+	}
+
+	#respond #submit {
+		width: 100%;
+	}
+}
+
+.emoji-box {
+	display: none;
+	position: relative;
+	margin: 0 0 5px 0;
+}
+
+.emoji-box img {
+	float: left;
+	width: 24px;
+	height: 24px;
+}
